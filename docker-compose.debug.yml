@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ericapi:
+    image: ericapi
+    build:
+      context: .
+      dockerfile: ./Dockerfile
